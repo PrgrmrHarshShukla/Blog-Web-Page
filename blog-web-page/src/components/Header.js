@@ -46,7 +46,7 @@ class Header extends React.Component {
             }</p>
            </div>
            <div className = "headerEle"> 
-            <img className = "headerImg" src = "https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kdXN0cmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt = "img2" />
+            <img className = "headerImg el2" src = "https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kdXN0cmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt = "img2" />
            </div> 
         </div>
     </div>

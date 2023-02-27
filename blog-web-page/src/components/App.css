@@ -8,10 +8,9 @@
 }
 
 .mainContent{
-  margin: auto;
+  margin: 0px;
   justify-content: center;
-  background-color: rgb(199, 213, 225);
-  padding: 40px;
+  padding: 0px;
 }
 
 .largeText{
@@ -28,6 +27,7 @@
   justify-content: center;
   position: relative;
   width: 100%;
+  background-color: aqua;
 }
 
 .bcgImage{
@@ -52,7 +52,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  background-color: rgba(27, 175, 172, 0.849);
+  background-color: rgb(255, 254, 254);
   justify-content: center;
   text-align: center;
   height: auto;
@@ -72,10 +72,6 @@
   max-height: 100%;
   max-width: 100%;
   padding-bottom: 0;
-}
-
-.el1{
- transform: translate(0px, 25px);
 }
 
 .bigText2{
