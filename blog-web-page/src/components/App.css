@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 }
 
 *{
@@ -8,17 +7,18 @@
 }
 
 .mainContent{
-  margin: 0px;
   justify-content: center;
-  padding: 0px;
+  margin: 0vw;
+  padding: 0vw;
+  width: 100vw;
 }
 
 .largeText{
   position: absolute;
   z-index: 1;
-  color: rgba(223, 8, 8, 0.4);
+  color: rgba(255, 0, 0, 0.4);
   font-weight: bold;
-  font-size: 60px;
+  font-size: 10vw;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -26,12 +26,13 @@
   display: flex;
   justify-content: center;
   position: relative;
-  width: 100%;
+  flex-wrap: wrap;
+  width: 100vw;
   background-color: aqua;
 }
 
 .bcgImage{
-  width: 100%;
+  width: 100vw;
   display: block;
   margin: 0;
   padding: 0;
@@ -39,82 +40,108 @@
 }
 
 .mainHeader{
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   margin: auto;
-  width: 100%;
+  width: 100vw;
+  height: 60vh;
 }
 
 .headerElement{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   background-color: rgb(255, 254, 254);
   justify-content: center;
   text-align: center;
-  height: auto;
-  width: auto;
+  height: 60vh;
+  width: 45vw;
   margin-top: -80px;
   z-index: 2;
   padding-top: 1px;
   overflow: hidden;
-  
 }
 
-.smallText{
-  margin-top: -15px; 
+
+.headerEle{
+  height: 20vh;
+  width: 40vw;
+  font-size: 2vh;
+  margin-top: 15px;
+}
+
+.headerEleImage{
+  height: 50vh;
+  width: 45vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .headerImg{
-  max-height: 100%;
-  max-width: 100%;
-  padding-bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.smallText{
+  margin-top: -10px; 
 }
 
 .bigText2{
   margin: 0px;
-  margin-top: 40px;
-  margin-bottom: -30px;
   padding: 0px;
-  padding-left: 20px;
+  padding-left: 0px;
   margin-right: auto;
-  font-size: 26px;
+  font-size: 3vw;
   color: rgb(75, 172, 19);
 }
 
 hr{
   border: 1px solid black;
-  width: 100%;
-  margin: 10px;
+  width: 100vw;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 
 .container{
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100vw;
+  margin: auto;
+  justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .content{
   display: flex;
   flex-direction: row;
-  gap: 30px;
-  justify-content: space-between;
-  margin: auto;
-  padding: 10px;
-  overflow: hidden;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+  justify-content: flex-end;
+}
+
+.contentText{
+  font-size: 2vh;
+  width: 40vw;
 }
 
 .contentImage{
-  height: 200px;
-  width: 200px;
+ margin: auto;
+ width: 40vw;
+ height: 30vh;
+ text-align: right;
 }
 
 .imgContent{
   width: auto;
-  height: auto;
+  height: 100%;
 }
 
 .App-logo {

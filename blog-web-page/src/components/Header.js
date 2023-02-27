@@ -31,7 +31,7 @@ class Header extends React.Component {
             </div>  :  null
             }</p>
            </div>
-           <div className = "headerEle">    
+           <div className = "headerEleImage">    
             <img className = "headerImg el1" src = "https://images.unsplash.com/photo-1645534728577-d87bd3e22d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvbm9teSUyMGFyb3VuZCUyMHRoZSUyMHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60" alt = "img1" />
            </div>
         </div>    
@@ -45,7 +45,7 @@ class Header extends React.Component {
             </div>  :  null
             }</p>
            </div>
-           <div className = "headerEle"> 
+           <div className = "headerEleImage"> 
             <img className = "headerImg el2" src = "https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kdXN0cmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt = "img2" />
            </div> 
         </div>
