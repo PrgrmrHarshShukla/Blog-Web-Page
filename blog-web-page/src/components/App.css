@@ -42,7 +42,7 @@
 .mainHeader {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 5vw;
   height: 60vh;
   justify-content: center;
   margin: auto;
