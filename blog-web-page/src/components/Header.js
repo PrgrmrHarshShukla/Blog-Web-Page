@@ -26,7 +26,7 @@ class Header extends React.Component {
         <div className="headerElement">
            <div className="headerEle"> 
             <h2>What is happening around the world?</h2>
-            <p className="smallText">{ this.state. users ? 
+            <p className="smallText">{ this.state.users ? 
             <div>
               <p>-By {this.state.users[5].first_name} {this.state.users[5].last_name}</p>
             </div>  :  null
@@ -39,7 +39,7 @@ class Header extends React.Component {
         <div className="headerElement">
            <div className="headerEle">  
             <h2>European Union in crisis while Russia watches.</h2>
-            <p className="smallText">{ this.state. users ? 
+            <p className="smallText">{ this.state.users ? 
             <div>
               <p>-By {this.state.users[4].first_name} {this.state.users[4].last_name}</p>
             </div>  :  null
